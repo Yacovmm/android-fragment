@@ -11,9 +11,9 @@ public class Menu {
 
     public static final Menu[] menus = {
 
-            new Menu("Breakfast", "2 Whole eggs \n Bread \n Coffe"),
-            new Menu("Lunch", "2 Whole eggs \n Meat \n Coke"),
-            new Menu("Dinner", "Rice \n Potato \n Milk")
+            new Menu("Breakfast", "2 Whole eggs, \n\n Bread, \n Coffe"),
+            new Menu("Lunch", "2 Whole eggs, \n\n Meat \n Coke"),
+            new Menu("Dinner", "Rice, \n\n Potato \n Milk")
 };
 
     private Menu(String name, String description){
