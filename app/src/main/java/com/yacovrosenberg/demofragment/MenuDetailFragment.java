@@ -31,7 +31,7 @@ public class MenuDetailFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         if (savedInstanceState != null){
-            menuID = savedInstanceState.getLong("menuId");
+            menuID = savedInstanceState.getLong("menuID");
         }
 
         return inflater.inflate(R.layout.fragment_menu_detail, container, false);

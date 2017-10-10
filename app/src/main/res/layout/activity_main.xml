@@ -8,14 +8,14 @@
     tools:context="com.yacovrosenberg.demofragment.MainActivity">
 
     <fragment
-        android:layout_width="0dp"
-        android:layout_weight="2"
-        android:layout_height="match_parent"
+        android:id="@+id/fragment"
         class="com.yacovrosenberg.demofragment.FoodListFragment"
-        />
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
 
-    <fragment
-        android:id="@+id/detail_frag"
+    <FrameLayout
+        android:id="@+id/fragment_container"
         class="com.yacovrosenberg.demofragment.MenuDetailFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
